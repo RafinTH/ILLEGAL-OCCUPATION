@@ -1,0 +1,187 @@
+body {
+    background-color: #009639;
+}
+
+h1 {
+    color: #009639;
+    background-color: #009639;
+    width: 1000px;
+    border-style: dashed;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-image: url("Palestine.jpeg");
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    font-family: Agency FB;
+    font-size: larger;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #000000;
+    text-decoration: none;
+    color: #009639;
+}
+
+nav ul li a:hover {
+    text-align: center;
+    background-color: #009639;
+}
+
+img {
+    /* opacity: 0.5; */
+    padding-top: 54px;
+    padding-left: 5px;
+}
+
+.pullquote{
+    font-size: xx-large;
+}
+
+#important {
+    color: #D62828
+}
+
+
+.Rafin {
+    opacity: 0.5; 
+    padding-top: 54px;
+    padding-left: 5px;
+}
+
+.background-image {
+    opacity: 0.5; 
+    padding-top: 54px;
+    padding-left: 5px;
+}
+
+/* styles.css */
+header {
+    position: relative;
+}
+
+#header-logo {
+    width: 150px; /* Adjust the width of the logo as needed */
+    position: absolute !important;
+    top: 100 !important;
+    left: 0 !important;
+    
+}
+
+
+#mainContent {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    background-color: #009639;
+    padding: 50px;
+}
+
+
+#Content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    background-color: #009639;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 560px;
+}
+
+
+.overlay {
+    text-align: center;
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 5px;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 96%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.image2 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-right: 50px;
+}
+
+.image3 {
+    text-align: center;
+    display: block;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    
+}
+
+.image4 {
+    text-align: center;
+    display: block;
+    width: 96%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding-right: 50px;
+}
+
+.image5 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    display: block;
+    margin-left: 40px;
+    margin-right: 20pxx;
+    height: auto;
+    padding-right: 50px;
+}

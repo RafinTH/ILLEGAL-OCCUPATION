@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> 
+        <ul> 
+            <li>
+                <a href="index.html">Main</a>
+            </li>
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+            <li>
+                <a href="News.html">News</a>
+            </li>
+            <li>
+                <a href="flags.html">Flags</a>
+            </li>
+            <li>
+                <a href="Palestine.html">Palestine</a>
+            </li>
+            <li>
+                <a href="Login.html">Log In</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column; /* Display containers in a column */
+                height: 100vh;
+                position: relative; /* Required for absolute positioning */
+            }
+    
+            .background-image {
+                position: absolute;
+                top: 0;
+                left: -7px;
+                width: 100%;
+                height: 100%;
+                object-fit: cover; /* Ensures the image covers the entire container */
+                z-index: -1; /* Send the image to the background */
+            }
+    
+            .login-container {
+                background-color: #fff;
+                padding: 20px; /* Important, Change this to be small or higher to make box smaller or bigger!!!!*/
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                width: 400px; /* Adjust the width as needed */
+                margin: 20px auto; /* Center the login container and move it down */
+                z-index: 1; /* Bring the login container to the foreground */
+            }
+    
+            .login-container h2 {
+                text-align: center;
+                color: #333;
+            }
+    
+            .login-form {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            .form-group {
+                margin-bottom: 10px;
+            }
+    
+            .form-group label {
+                font-weight: bold;
+                margin-bottom: 5px;
+                display: block;
+            }
+    
+            .form-group input {
+                width: 95%; /* Important, you can change the text box size */
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+    
+            .form-group button {
+                background-color: #4caf50;
+                color: #fff;
+                padding: 10px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+    
+            .form-group button:hover {
+                background-color: #45a049;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="background-image" src="Hamas background.jpeg" alt="Background Image">
+        
+        
+            <img src="Hamas_logo-removebg.png.png" alt="Flag of Shahada, All Muslims unite under"
+        class="image3"> 
+            
+        
+        
+        <div class="login-container">
+            <h2>Login</h2>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </body>
+    </html>
+
+    
+    
+
+    
